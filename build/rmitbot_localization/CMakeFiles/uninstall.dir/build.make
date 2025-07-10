@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_localization
+CMAKE_SOURCE_DIR = /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_localization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_localization
+CMAKE_BINARY_DIR = /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_localization
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_localization /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_localization /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_localization /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_localization /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_localization/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_localization /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_localization /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_localization /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_localization /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_localization/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

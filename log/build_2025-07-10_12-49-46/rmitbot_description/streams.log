@@ -1,0 +1,59 @@
+[0.040s] Invoking command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_description -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description
+[0.637s] -- The C compiler identification is GNU 13.3.0
+[0.816s] -- The CXX compiler identification is GNU 13.3.0
+[0.859s] -- Detecting C compiler ABI info
+[1.113s] -- Detecting C compiler ABI info - done
+[1.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.143s] -- Detecting C compile features
+[1.144s] -- Detecting C compile features - done
+[1.171s] -- Detecting CXX compiler ABI info
+[1.415s] -- Detecting CXX compiler ABI info - done
+[1.466s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.468s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.480s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.891s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.058s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.241s] -- Found TinyXML2 via Config file: /usr/lib/aarch64-linux-gnu/cmake/tinyxml2
+[2.708s] -- Configuring done (2.5s)
+[2.722s] -- Generating done (0.0s)
+[2.727s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description
+[2.762s] Invoked command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_description -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description
+[2.762s] Invoking command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description -- -j4 -l4
+[2.813s] Invoked command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description -- -j4 -l4
+[2.815s] Invoking command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description
+[2.867s] -- Install configuration: ""
+[2.867s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes
+[2.867s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/base_link.STL
+[2.944s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/caster_front_link.STL
+[2.944s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/wheel_left_link.STL
+[2.946s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/caster_rear_link.STL
+[2.950s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/wheel_right_link.STL
+[2.950s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/meshes/imu_link.STL
+[2.956s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf
+[2.956s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_gazebo.xacro
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot.urdf.xacro
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_ros2_control.xacro
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_platform.xacro
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_imu.xacro
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/launch
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/launch/gazebo.launch.py
+[2.960s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/launch/display.launch.py
+[2.965s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/rviz
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/rviz/display.rviz
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/ament_index/resource_index/package_run_dependencies/rmitbot_description
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/ament_index/resource_index/parent_prefix_path/rmitbot_description
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/environment/ament_prefix_path.sh
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/environment/ament_prefix_path.dsv
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/environment/path.sh
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/environment/path.dsv
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/local_setup.bash
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/local_setup.sh
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/local_setup.zsh
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/local_setup.dsv
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/package.dsv
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/ament_index/resource_index/packages/rmitbot_description
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/cmake/rmitbot_descriptionConfig.cmake
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/cmake/rmitbot_descriptionConfig-version.cmake
+[2.966s] -- Installing: /home/ngan/Documents/test_github/lesson5_ws_updated/install/rmitbot_description/share/rmitbot_description/package.xml
+[2.980s] Invoked command in '/home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_description

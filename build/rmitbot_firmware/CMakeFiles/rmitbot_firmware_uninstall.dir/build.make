@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_firmware
+CMAKE_SOURCE_DIR = /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware
+CMAKE_BINARY_DIR = /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware
 
 # Utility rule file for rmitbot_firmware_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/rmitbot_firmware_uninstall.dir/compiler_depend.make
 include CMakeFiles/rmitbot_firmware_uninstall.dir/progress.make
 
 CMakeFiles/rmitbot_firmware_uninstall:
-	/usr/bin/cmake -P /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 rmitbot_firmware_uninstall: CMakeFiles/rmitbot_firmware_uninstall
 rmitbot_firmware_uninstall: CMakeFiles/rmitbot_firmware_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/rmitbot_firmware_uninstall.dir/clean:
 .PHONY : CMakeFiles/rmitbot_firmware_uninstall.dir/clean
 
 CMakeFiles/rmitbot_firmware_uninstall.dir/depend:
-	cd /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_firmware /home/tranminhtu/RMITbot/lesson5_ws/src/rmitbot_firmware /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware /home/tranminhtu/RMITbot/lesson5_ws/build/rmitbot_firmware/CMakeFiles/rmitbot_firmware_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_firmware /home/ngan/Documents/test_github/lesson5_ws_updated/src/rmitbot_firmware /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware /home/ngan/Documents/test_github/lesson5_ws_updated/build/rmitbot_firmware/CMakeFiles/rmitbot_firmware_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/rmitbot_firmware_uninstall.dir/depend
 

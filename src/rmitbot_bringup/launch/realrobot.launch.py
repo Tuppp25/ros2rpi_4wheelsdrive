@@ -25,8 +25,8 @@ def generate_launch_description():
     teleopkeyboard = IncludeLaunchDescription(
         os.path.join(
             get_package_share_directory("rmitbot_controller"),
-            "launch",
-            "teleopkeyboard.launch.py"
+            "launch"
+            #"teleopkeyboard.launch.py"
         ),
         launch_arguments={
             "use_sim_time": "False"
@@ -41,6 +41,6 @@ def generate_launch_description():
     return LaunchDescription([
         hardware_interface,
         controller,
-        teleopkeyboard,
+        #teleopkeyboard,
         # imu_driver_node,
     ])

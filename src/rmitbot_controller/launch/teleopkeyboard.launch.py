@@ -23,7 +23,7 @@ def generate_launch_description():
         executable='teleop_twist_keyboard',
         name='teleop_twist_keyboard',
         output='screen',
-        prefix='xterm -e',
+        #prefix='xterm -e',
         parameters=[
             {"use_sim_time": LaunchConfiguration("use_sim_time")},
             {'stamped': True},
