@@ -15,8 +15,8 @@ rmitbot_controller:
   ros__parameters:
     type        : diff_drive_controller/DiffDriveController
     use_stamped_vel: true
-    left_wheel_names  : ['front_left_wheel_joint', 'rear_left_wheel_joint']
-    right_wheel_names : ['front_right_wheel_joint', 'rear_right_wheel_joint']
+    left_wheel_names  : ['left_wheel1_joint', 'left_wheel2_joint']
+    right_wheel_names : ['right_wheel1_joint', 'right_wheel2_joint']
 
     publish_rate: 50.0               # default: 50
     # Odometry noise in pose and twist
