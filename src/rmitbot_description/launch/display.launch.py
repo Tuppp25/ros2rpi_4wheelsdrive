@@ -16,7 +16,7 @@ from launch.substitutions import Command, LaunchConfiguration
 def generate_launch_description():
     # Get the directory of the package
     rmitbot_description_dir = get_package_share_directory("rmitbot_description")
-      
+    
     # Declare the model argument
     model_arg = DeclareLaunchArgument(
         name="model", 
@@ -26,7 +26,7 @@ def generate_launch_description():
     
     # This line processes your robot’s .xacro file at launch time, converting it to URDF
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]), value_type=str)
-   
+    
     # This node publishes the robot state to the TF tree
     robot_state_publisher = Node(
         package='robot_state_publisher',

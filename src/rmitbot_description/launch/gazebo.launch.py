@@ -26,7 +26,7 @@ def generate_launch_description():
         default_value=os.path.join(rmitbot_description_dir, "urdf", "rmitbot.urdf.xacro"),
         description="Absolute path to robot urdf file"
     )
-    
+
     # This line processes your robot’s .xacro file at launch time, converting it to URDF
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]), value_type=str)
 
@@ -44,14 +44,14 @@ def generate_launch_description():
         name="GZ_SIM_RESOURCE_PATH",
         value=[str(Path(rmitbot_description_dir).parent.resolve())]
     )
-
+    
     # This node launches Gazebo with the specified configuration file
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             [os.path.join(get_package_share_directory("ros_gz_sim"), "launch"), "/gz_sim.launch.py"]),
                 launch_arguments=[("gz_args", [" -v 4", " -r", " empty.sdf", " --render-engine", " ogre"])]
     )
-    
+
     # This node spawns the robot in Gazebo
     gz_spawn_entity = Node(
         package="ros_gz_sim",
@@ -64,9 +64,7 @@ def generate_launch_description():
     gz_ros2_bridge = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
-        arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock", 
-                   "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"], 
-        remappings=[('/imu', '/imu/out')], 
+        arguments=["/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"], 
     )
 
     return LaunchDescription([
